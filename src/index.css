@@ -1,0 +1,14 @@
+@tailwind base;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+    @apply box-border;
+  }
+  body {
+    @apply relative;
+    @apply font-roboto text-zinc-50;
+  }
+}
+@tailwind components;
+@tailwind utilities;
