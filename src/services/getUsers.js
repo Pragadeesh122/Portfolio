@@ -5,6 +5,7 @@ export async function getUsers({ user }) {
 
   if (error) {
     console.log(error);
+    console.log('sd');
     throw new Error('There was an error getting the input!');
   }
 
